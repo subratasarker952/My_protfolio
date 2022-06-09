@@ -3,10 +3,11 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
-import app from './firebase.init';
+
 
 
 function App() {
+
   return (
     <div className="App">
       <Header></Header>
