@@ -1,11 +1,11 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="dark" className='py-3' variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/"> Subrata Sarker</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -17,6 +17,7 @@ const Header = () => {
                         <Nav>
                             <Nav.Link as={Link} className="text-light" to="/about">About</Nav.Link>
                             <Nav.Link as={Link} className="text-light" to="/contact">Contact</Nav.Link>
+                             <a target="_blank" href='https://drive.google.com/file/d/1fT8nU0BspDNmTI4U1nTCwQoVKjKHhytj/view?usp=sharing'><Button> Download Resume </Button></a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

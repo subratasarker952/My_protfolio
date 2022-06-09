@@ -24,7 +24,7 @@ const Services = () => {
                     </div>
                 </div>                
                 <div className='col '>
-                    <div className='card p-3 border-rounded'>
+                    <div className='card p-4 border-rounded'>
                         <img style={{height:"200px", width:"300px",margin:"auto"}} src={dev} alt='' />
                         <h3 className='mt-3 salmon'>Website Develop</h3>
                         <p>If you Need new feature in your website or modify some feature i can do it.</p>

@@ -29,6 +29,28 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+form{
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+input{
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 12px;
+  width: 80%;
+}
+textarea{
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 12px;
+  width: 80%;
+  height: 150px;
+}
 
 .App-link {
   color: #61dafb;
@@ -41,4 +63,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.cvbtn{
+  text-decoration: none;
+  color: white;
 }
