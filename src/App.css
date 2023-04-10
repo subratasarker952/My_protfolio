@@ -64,7 +64,13 @@ textarea{
     transform: rotate(360deg);
   }
 }
-.cvbtn{
-  text-decoration: none;
-  color: white;
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.cardGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }

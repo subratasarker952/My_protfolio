@@ -13,11 +13,12 @@ const Header = () => {
                         <Nav className="me-auto ">
                             <Nav.Link as={Link} className="text-light" to="/">Home</Nav.Link>
                             <Nav.Link as={Link} className="text-light" to="/project">Project</Nav.Link>
+                            <Nav.Link as={Link} className="text-light" to="/blog">Blog</Nav.Link>
                         </Nav>
                         <Nav>
                             <Nav.Link as={Link} className="text-light" to="/about">About</Nav.Link>
                             <Nav.Link as={Link} className="text-light" to="/contact">Contact</Nav.Link>
-                             <a target="_blank" href='https://drive.google.com/file/d/1fT8nU0BspDNmTI4U1nTCwQoVKjKHhytj/view?usp=sharing'><Button> Download Resume </Button></a>
+                             <a target="_blank" href='https://drive.google.com/file/d/1fT8nU0BspDNmTI4U1nTCwQoVKjKHhytj/view?usp=sharing' rel="noreferrer"><Button> Download Resume </Button></a>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

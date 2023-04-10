@@ -10,7 +10,7 @@ const Contact = () => {
         <div className='container py-5'>
             <h2 className='big py-3 salmon'>Contact Me</h2>
             <div className='row '>
-                <div className='col-md-6'>
+                <div className='col-md-6 '>
                     <img src={contact} className="img-fluid" alt='' />
                 </div>
                 <div className='col-md-6'>
