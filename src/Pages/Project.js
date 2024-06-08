@@ -7,7 +7,9 @@ const Project = (props) => {
   return (
     <div className="col">
       <div className="card p-4 border-rounded ">
-        <img src={img} alt="" />
+        <img src={img}
+        style={{ height: "200px", width: "300px", margin: "auto" }}
+        alt={projectName} />
         <div class="card-body">
           <h5 class="card-title">{projectName}</h5>
           <p class="card-text">{description}</p>
