@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/H2xq4jV/web.jpg",
+        "title": "Create website",
+        "description": "I can make interactive responsive website If you Need any kind of website contact me."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/HK1N2fx/dev.jpg",
+        "title": "Development",
+        "description": "Add some new feature in your website or modify some feature i can do it."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/2ky0Pf9/bug.jpg",
+        "title": "Debugging",
+        "description": "Your website have some problem or error i can fix this problem"
+    }
+]
