@@ -15,10 +15,10 @@ const Contact = () => {
                 </div>
                 <div className='col-md-6'>
                     <form onSubmit={handleSubmit}>
-                        <input type="text" placeholder='Name' />
-                        <input type="email" placeholder='Email' />
-                        <input type="text" placeholder='Subject' />
-                        <textarea placeholder='Write your message' />
+                        <input type="text" required placeholder='Name' />
+                        <input type="email" required placeholder='Email' />
+                        <input type="text" required placeholder='Subject' />
+                        <textarea required maxLength={50} placeholder='Write your message' />
                         <input type="submit" className='btn btn-info py-3 text-light' value="Send" />
                     </form>
                 </div>

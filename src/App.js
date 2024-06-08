@@ -4,9 +4,9 @@ import Home from './Pages/Home';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Components/Header';
 import Blog from './Pages/Blog';
-import About from './Pages/About';
 import Projects from './Pages/Projects';
-import ProjectDetails from './Pages/ProjectDetails';
+import AboutPage from './Pages/AboutPage';
+import ContactPage from './Pages/ContactPage';
 
 
 
@@ -17,11 +17,10 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/about" element={<About></About>}></Route>
+        <Route path="/about" element={<AboutPage></AboutPage>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
-        <Route path="/project" element={<Projects></Projects>}></Route>
-        <Route path="/moreInfo" element={<ProjectDetails></ProjectDetails>}></Route>
-        <Route path="/contact" element={<Home></Home>}></Route>
+        <Route path="/projects" element={<Projects></Projects>}></Route>
+        <Route path="/contact" element={<ContactPage></ContactPage>}></Route>
         <Route path="*" element={<Home></Home>}></Route>
       </Routes>
     </div>

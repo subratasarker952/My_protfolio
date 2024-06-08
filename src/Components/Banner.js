@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <div className="my-5, py-5">
+    <div className="">
       <div className="container my-5 py-5">
         <div className="row pt-5">
           <div className="col-md-6 ">

@@ -2,26 +2,23 @@
     
     {
         "id": "1",
-        "img1": "https://i.ibb.co/RBp7ht8/et1.png",
-        "img2": "https://i.ibb.co/HG4DpfK/et2.png",
-        "img3": "https://i.ibb.co/rbmt3Qn/et3.png",
-        "name": "Essential Tools",
-        "description": "Order placement, Admin & user role, Manage tools."
+        "img": "https://i.ibb.co/wrdBVBB/Screenshot-3.png",
+        "projectName": "DigitalFurniture",
+        "liveLink":"https://digitalfurnitureclient.vercel.app/",
+        "description": "Authentication by firebase, User create review and blogs, update review and blogs, delete review and blogs."
     },
     {
         "id": "2",
-        "img1": "https://i.ibb.co/mvDC39p/smartphone1.png",
-        "img2": "https://i.ibb.co/zHSgtSv/smartphone2.png",
-        "img3": "https://i.ibb.co/qjgXvN8/smartphone3.png",
-        "name": "Smart-Phone Inventory",
-        "description": "Stack management, Delivery & Add product, Update Quantity."
+        "img": "https://i.ibb.co/cQj85wY/smartphone.png",
+        "projectName": "Smart-Phone Inventory",
+        "liveLink":"https://smartphone-inventory.web.app",
+        "description": "Authentication, Stack management, Delivery & Add product, Update Quantity."
     },
     {
         "id": "3",
-        "img1": "https://i.ibb.co/P5dmpbW/sp1.png",       
-        "img2": "https://i.ibb.co/0jxGxkT/sp2.png",
-        "img3": "https://i.ibb.co/Cvg0DtC/sp3.png",
-        "name": "Support of Book",
-        "description": "Essential Books, Books Review, Dashbord Chart, Blog Section, Abou section and Footer"
+        "img": "https://i.ibb.co/m6FzzHv/Screenshot-4.png",
+        "projectName": "Shopping App",
+        "liveLink":"https://niyenin-public-app.web.app",
+        "description": "Authentication by firebase, Admin and user Role, Order placement,User and admin Dashboard"
     }
 ]

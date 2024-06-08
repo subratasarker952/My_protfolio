@@ -1,31 +1,23 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
-import ProjectDetails from './ProjectDetails';
-
+import React from "react";
 
 const Project = (props) => {
-    const project = props.project
-    const { name, img1, description } = project;
-    const navigate = useNavigate()
-    const handleMore = (p) => {
-        navigate('/moreInfo')
-        ProjectDetails(p)
-    }
+  const project = props.project;
+  const { projectName, img, liveLink, description } = project;
 
-    return (
-        <div className='card p-2'>
-            <img src={img1} alt=''/>
-            {/*  <h2>{name}</h2>
-            <p>{description}</p> */}
-            <div class="card-body">
-                <h5 class="card-title">{name}</h5>
-                <p class="card-text">{description}</p>
-                <Button onClick={() => handleMore(project)}>Details</Button>
-            </div>
-
+  return (
+    <div className="col">
+      <div className="card p-4 border-rounded ">
+        <img src={img} alt="" />
+        <div class="card-body">
+          <h5 class="card-title">{projectName}</h5>
+          <p class="card-text">{description}</p>
+          <a target="_blank" href={liveLink} className="white">
+            Live
+          </a>
         </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Project;
