@@ -35,7 +35,7 @@ const Header = () => {
               </Nav.Link>
               <a
                 target="_blank"
-                href="https://drive.google.com/file/d/1w-jRaWWMQMOshtitOPovzbl2praBwOlW/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_EpWP2313rOU-Er3yTodThs37oX3FCiY/view"
                 rel="noreferrer"
               >
                 <Button> Download Resume </Button>
