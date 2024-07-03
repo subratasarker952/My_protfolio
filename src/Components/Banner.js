@@ -1,5 +1,5 @@
 import React from "react";
-import banner from "../Images/About.png";
+import banner from "../Images/baner.png";
 import { Button } from "react-bootstrap";
 
 const Banner = () => {
@@ -11,7 +11,7 @@ const Banner = () => {
             <div className="p-5">
               <h1 className="big">
                 Hello !<br /> I am{" "}
-                <span className="salmon">Subrata Sarker </span>
+                <span className="salmon">Subrata Sarker </span>{" "}
               </h1>
               <h1 className="big">Full-Stack Web Developer. </h1>
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import demo from "../../Images/me.png";
+import me from "../../Images/About.png";
 
 const About = () => {
   return (
@@ -38,8 +38,8 @@ const About = () => {
         </div>
         <div className="col">
           <img
-            style={{ height: "", width: "", margin: "auto" }}
-            src={demo}
+            style={{ height: "600px", width: "auto", margin: "auto" }}
+            src={me}
             alt=""
           />
         </div>
