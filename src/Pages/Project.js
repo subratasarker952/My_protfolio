@@ -13,7 +13,7 @@ const Project = (props) => {
         <div className="card-body">
           <h5 className="card-title">{projectName}</h5>
           <p className="card-text">{description}</p>
-          <a target="_blank" href={liveLink} className="py-2 px-4 btn-primary">
+          <a target="_blank" rel="noreferrer" href={liveLink} className="py-2 px-4 btn-primary">
             Live
           </a>
         </div>
