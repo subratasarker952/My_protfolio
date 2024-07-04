@@ -7,7 +7,7 @@ const About = () => {
     <div className="container pb-5 ">
       <h2 className="big py-5 salmon">About Me</h2>
       <div className="row pb-5">
-        <div className="col-md-6 pt-6">
+        <div className="col-md-6 pt-6" style={{display:'flex', justifyContent:'center', alignItems:'center', height:'500px'}}>
           <div className="mt-6 p-6 mt-6">
             <h2 className="big salmon"> Subrata Sarker</h2>
             <h2 className="salmon">Full stack web developer</h2>
@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <div className="">
               <h2 className="salmon">
-                My Skills:-{" "}
+                My Skills:-
                 <span>
                   <Typewriter
                     words={[
@@ -37,9 +37,9 @@ const About = () => {
                     ]}
                     loop={0}
                     cursor
-                    cursorStyle="|"
-                    typeSpeed={70}
-                    deleteSpeed={50}
+                    cursorStyle="<"
+                    typeSpeed={90}
+                    deleteSpeed={40}
                     delaySpeed={1000}
                   />
                 </span>
