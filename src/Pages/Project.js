@@ -10,9 +10,9 @@ const Project = (props) => {
         <img src={img}
         style={{ height: "200px", width: "300px", margin: "auto" }}
         alt={projectName} />
-        <div class="card-body">
-          <h5 class="card-title">{projectName}</h5>
-          <p class="card-text">{description}</p>
+        <div className="card-body">
+          <h5 className="card-title">{projectName}</h5>
+          <p className="card-text">{description}</p>
           <a target="_blank" href={liveLink} className="py-2 px-4 btn-primary">
             Live
           </a>
